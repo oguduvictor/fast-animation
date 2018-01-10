@@ -1,4 +1,4 @@
-# Fluent Web Animation System
+# Fluent Web Animation Library
 Bring Fluent to life with interactions and animations built for latest browser capabilities.
 
 * In collaboration with Edge, light up new features as they become available through the creation of predefined interactions and animations in direct alignment with Fluent Design System.
