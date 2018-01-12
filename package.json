@@ -2,6 +2,7 @@
   "name": "@microsoft/fast-animation",
   "version": "0.0.12-beta.0",
   "description": "Bring Fluent to life with interactions and animations built for modern browser capability.",
+  "license": "MIT",
   "main": "build/index.js",
   "repository": {
     "type": "git",
