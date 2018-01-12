@@ -109,6 +109,9 @@ The public methods exposed by both classes are `play`, `pause`, `finish`, `cance
 - Run `npm run dev-server:react` to view the react examples (localhost:9005).
 - Run `npm run build` to compile files to the build folder.
 
+## Accessibility
+For details [visit](https://github.com/Microsoft/fast-animation-library/wiki/Accessibility).
+
 ## Contributing
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
