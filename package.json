@@ -1,7 +1,7 @@
 {
   "name": "@microsoft/fast-animation",
   "version": "0.0.12-beta.0",
-  "description": "Bring Fluent to life with interactions and animations built for modern browser capability.",
+  "description": "An animation library that simplifies interactions and animations using the Web Animation API.",
   "license": "MIT",
   "main": "build/index.js",
   "repository": {
@@ -9,6 +9,9 @@
     "url": "https://github.com/Microsoft/fast-animation.git"
   },
   "registry": "https://registry.npmjs.org/",
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/package/@microsoft/fast-animation"
+  },
   "author": {
     "name": "Microsoft Corporation"
   },
