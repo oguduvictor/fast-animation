@@ -1,12 +1,12 @@
-# FAST Animation Library (Beta)
-Interactions and animations built for the latest browser capabilities.
+# FAST animation library (Beta)
+An animation library that simplifies interactions and animations using the Web Animation API.
 
 * Light up new browser features as they become available.
 * Push the boundaries in web animation and interaction.
 * Provides a convenient abstraction layer over the Web Animation API while still allowing full access to it.
 * Simplifies complex animations on anything with any timeframe by sequencing and grouping animation effects for multi-motion loading.
 
-## Peer Dependencies
+## Peer dependencies
 This system uses the emerging Web Animations API that is not supported in all browsers. To provide the broadest support, we recommend you include the web animations polyfill (use the 'next' version). This polyfill can be found [here](https://cdnjs.com/libraries/web-animations).
 
 *Why doesn't the library bundle the polyfill?*  
@@ -72,7 +72,7 @@ The EffectTiming object is passed directly to the WAAPI and should conform to th
 #### Public methods
 The public methods exposed by both classes are `play`, `pause`, `finish`, `cancel`, and `reverse`. For more information on what these methods do, see the corresponding method exposed by the [WAAPI Animation object](https://developer.mozilla.org/en-US/docs/Web/API/Animation).
 
-#### Life-cycle hooks
+#### Life cycle hooks
 - `onFinish`: { `() => void` } If provided, `onFinish` will be called when the animation has completed.
 - `onCancel`: { `() => void` } If provided, `onCancel` will be called when (and if) the animation is canceled.
 
@@ -102,7 +102,7 @@ Both `AnimateGroup` and `AnimateSequence` accept an array of `AnimateTo` and `An
 ### Public methods
 The public methods exposed by both classes are `play`, `pause`, `finish`, `cancel`, and `reverse`.
 
-#### Life-cycle hooks
+#### Life cycle hooks
 `onFinish`: { `() => void` } If provided, `onFinish` will be called when the animation has completed.
 
 ## Running the localhost testing environment
