@@ -17,9 +17,9 @@ Must be one of the following **types**:
 
 **Description:** A single line, lowercase, ending with a '.', and without naming any component this relates to. Components can be referred to by the *Tag(s)*.
 
-**Issue number:** Maps directly to the GitHub issue number. May be more than one if the work is related.
+**Issue number:** Maps directly to the GitHub issue number. Can be more than one if the work is related.
 
 **Labels:** Specific changes mapping to how work is managed across the project.
 
 Example:
->`docs(readme): adds an accessibility section to the readme [123456]`
+>`docs(readme): add an accessibility section to the readme [123456]`
