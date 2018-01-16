@@ -28,8 +28,8 @@ Sequencing and grouping classes are also provided that can help orchestrate more
 ```javascript
 var mySequence = new AnimateSequence([
     new AnimateTo(element1, { x: 20 }),
-    new AnimateTo(element2 { x: 20 }),
-    new AnimateTo(element3 { x: 20 })
+    new AnimateTo(element2, { x: 20 }),
+    new AnimateTo(element3, { x: 20 })
 ]);
 
 // Attach an onFinish callback
@@ -73,8 +73,8 @@ The EffectTiming object is passed directly to the WAAPI and should conform to th
 The public methods exposed by both classes are `play`, `pause`, `finish`, `cancel`, and `reverse`. For more information on what these methods do, see the corresponding method exposed by the [WAAPI Animation object](https://developer.mozilla.org/en-US/docs/Web/API/Animation).
 
 #### Life cycle hooks
-- `onFinish`: { `() => void` } If provided, `onFinish` will be called when the animation has completed.
-- `onCancel`: { `() => void` } If provided, `onCancel` will be called when (and if) the animation is canceled.
+- `onFinish: { () => void }` If provided, `onFinish` will be called when the animation has completed.
+- `onCancel: { () => void }` If provided, `onCancel` will be called when (and if) the animation is canceled.
 
 ## Classes: AnimateGroup and AnimateSequence
 `AnimateGroup` and `AnimateSequence` are both classes that allow you to group and play animations together. Each takes an array of AnimateTo or AnimateFrom objects and provides an API to play, pause, finish, cancel, and reverse the collection of animations. `AnimateGroup` allows you to control all animations simultaneously while `AnimateSequence` allows you to control all animations in sequence.
@@ -103,7 +103,7 @@ Both `AnimateGroup` and `AnimateSequence` accept an array of `AnimateTo` and `An
 The public methods exposed by both classes are `play`, `pause`, `finish`, `cancel`, and `reverse`.
 
 #### Life cycle hooks
-`onFinish`: { `() => void` } If provided, `onFinish` will be called when the animation has completed.
+`onFinish: { () => void }` If provided, `onFinish` will be called when the animation has completed.
 
 ## Running the localhost testing environment
 - Run `npm run dev-server:react` to view the react examples (localhost:9005).
