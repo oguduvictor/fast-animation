@@ -1,8 +1,6 @@
 # FAST animation library (Beta)
 An animation library that simplifies interactions and animations using the Web Animation API.
 
-* Light up new browser features as they become available.
-* Push the boundaries in web animation and interaction.
 * Provides a convenient abstraction layer over the Web Animation API while still allowing full access to it.
 * Simplifies complex animations on anything with any timeframe by sequencing and grouping animation effects for multi-motion loading.
 
